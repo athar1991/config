@@ -16,4 +16,5 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/do-payment
-        uri2: http://PAYMENT-SERVICE/payment
+      endpoint-feign:
+        uri: http://localhost:8086/payment
